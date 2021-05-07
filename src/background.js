@@ -21,11 +21,14 @@ function createWindow () {
     minHeight: 800,
     width: 1100,
     height: 800,
+    icon: __dirname + '/assets/icon.png',
     webPreferences: {
-      nodeIntegration: true
-      // devTools: false
+      nodeIntegration: true,
+      devTools: false
     }
   })
+
+  win.removeMenu()
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     // Load the url of the dev server if in development mode

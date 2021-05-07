@@ -108,7 +108,7 @@ export default {
         }
 
         const reviewers = []
-        const projectName = "<YOUR PROJECT NAME HERE>" // TODO: Populate from user settings
+        const projectName = '<YOUR PROJECT NAME HERE>' // TODO: Populate from user settings
         const orgUrl = '<YOUR URL HERE; EX: https://dev.azure.com/my_org>' // TODO: Populate from user settings
 
         pullRequest.reviewers.forEach(reviewer => {
@@ -145,7 +145,7 @@ export default {
         }
 
         const reviewers = []
-        const projectName = "<YOUR PROJECT NAME HERE>" // TODO: Populate from user settings
+        const projectName = '<YOUR PROJECT NAME HERE>' // TODO: Populate from user settings
         const orgUrl = '<YOUR URL HERE; EX: https://dev.azure.com/my_org>' // TODO: Populate from user settings
 
         pullRequest.reviewers.forEach(reviewer => {
